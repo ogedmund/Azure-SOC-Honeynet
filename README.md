@@ -25,3 +25,17 @@ The architecture of the mini honeynet in Azure consists of the following compone
 - Azure Storage Account
 - Microsoft Sentinel
 
+## Attack Maps Before Hardening / Security Controls
+
+
+## Metrics Before Hardening / Security Controls
+
+## Attack Maps After Hardening / Security Controls
+
+## Metrics After Hardening / Security Controls
+
+## Summary
+In this project, a mini honeynet was constructed in Microsoft Azure and the logs were pushed into a Log Analytics Workspace for analysis. Microsoft Sentinel was also employed to trigger alerts and create incidents based on the ingested logs. Additionally, metrics were measured in the insecure environment before security controls were applied, and then again after implementing security measures. The number of security events and incidents were drastically reduced after the security controls were applied, demonstrating their effectiveness.
+
+It is worth noting that if the resources within the network were heavily utilized by regular users, it is likely that more security events and alerts may have been generated within the 24-hour period following the implementation of the security controls.
+EDIT SUMMARY
