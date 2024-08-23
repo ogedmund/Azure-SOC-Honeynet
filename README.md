@@ -14,7 +14,7 @@ I built a mini honeynet in Azure and ingest logs from various resources into a L
 - SecurityIncident (Incidents created by Sentinel)
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
-##Architecture
+## Architecture
 The architecture of the mini honeynet in Azure consists of the following components:
 
 - Virtual Network (VNet)
