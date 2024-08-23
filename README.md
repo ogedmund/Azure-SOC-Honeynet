@@ -27,10 +27,16 @@ The architecture of the mini honeynet in Azure consists of the following compone
 
 ## Attack Maps Before Hardening / Security Controls
 
+![Linux SSH](./Linux-SSH-AUTH-FAIL.png)
+![Windows RDP](./Windows-RDP-AUTH-FAIL.png)
+![NSG Allow](./NSG-Allow.png)
 
 ## Metrics Before Hardening / Security Controls
 
+
 ## Attack Maps After Hardening / Security Controls
+ 
+ All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.
 
 ## Metrics After Hardening / Security Controls
 
