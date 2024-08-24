@@ -23,7 +23,7 @@ The architecture of the mini honeynet in Azure consists of the following compone
 - Log Analytics Workspace
 - Azure Key Vault
 - Azure Storage Account
-- Microsoft Sentinelsss
+- Microsoft Sentinel
 
 ## Attack Maps Before Hardening / Security Controls
 
