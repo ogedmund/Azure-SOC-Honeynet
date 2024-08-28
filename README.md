@@ -38,6 +38,12 @@ The architecture of the mini honeynet in Azure consists of the following compone
 
 
 ## Metrics Before Hardening / Security Controls
+| Metric        | Count |
+| ------------- | ------------- |
+| SecurityEvent | 151470 |
+| Syslog  | 1755  |
+| Security Incident | 179  |
+| Azure Network Analytics | 780  |
 
 
 ## Attack Maps After Hardening / Security Controls
@@ -45,6 +51,12 @@ The architecture of the mini honeynet in Azure consists of the following compone
  All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.
 
 ## Metrics After Hardening / Security Controls
+| Metric        | Count |
+| ------------- | ------------- |
+| SecurityEvent | 74595 |
+| Syslog  | 1  |
+| Security Incident | 0  |
+| Azure Network Analytics | 0  |
 
 ## Summary
 In this project, a mini honeynet was constructed in Microsoft Azure and the logs were pushed into a Log Analytics Workspace for analysis. Microsoft Sentinel was also employed to trigger alerts and create incidents based on the ingested logs. Additionally, metrics were measured in the insecure environment before security controls were applied, and then again after implementing security measures. The number of security events and incidents were drastically reduced after the security controls were applied, demonstrating their effectiveness.
