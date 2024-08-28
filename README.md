@@ -31,6 +31,10 @@ The architecture of the mini honeynet in Azure consists of the following compone
 ![Windows RDP](./Windows-RDP-AUTH-FAIL.png)
 ![NSG Allow](./NSG-Allow.png)
 
+## Windows Event Viewer and Linux ./var/log file
+
+
+
 ## Metrics Before Hardening / Security Controls
 
 
