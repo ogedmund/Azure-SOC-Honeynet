@@ -33,7 +33,8 @@ The architecture of the mini honeynet in Azure consists of the following compone
 
 ## Windows Event Viewer and Linux ./var/log file
 
-
+![Linux var/logs](./Linux-VM-logs.png)
+![Windows Event_Viewer](./Win-VM-logs.png)
 
 ## Metrics Before Hardening / Security Controls
 
